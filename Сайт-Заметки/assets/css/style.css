@@ -1,0 +1,248 @@
+.nav {
+    width: 960px;
+    margin: 0 auto;
+}
+nav:before {
+    content: '';
+    display:block;
+    height: 65px;
+    width: 100%;
+    background: rgb(252, 200, 89);
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 70px;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    
+    color: rgb(0, 0, 0);
+    display: block;
+    height: 1px;
+    padding: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 0px;
+    border-right: 2px solid rgb(255, 145, 0);
+    transition: .3s all ease;
+}
+ul li a:hover {
+    background: rgba(241, 95, 95, 0.877);
+    background-color: rgb(184, 89, 0); 
+}
+
+body {
+    background: rgb(230, 180, 133);
+}
+
+a.button1 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+}
+a.button1:hover {
+    background: rgb(53, 167, 110);
+}
+a.button1:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+a.button2 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+}
+a.button2:hover {
+    background: rgb(53, 167, 110);
+}
+a.button2:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+a.button3 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+}
+a.button3:hover {
+    background: rgb(53, 167, 110);
+}
+a.button3:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+a.buttondow {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+a.buttondow:hover {
+    background: rgba(255, 255, 255 2);
+}
+a.buttondow:active {
+    background: white;
+}
+a.buttondow1 {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+a.buttondow1:hover {
+    background: rgba(255, 255, 255 2);
+}
+a.buttondow1:active {
+    background: white;
+}
+
+a.buttondow2 {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+a.buttondow2:hover {
+    background: rgba(255, 255, 255 2);
+}
+a.buttondow2:active {
+    background: white;
+}
+
+a.buttondow3 {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+a.buttondow3:hover {
+    background: rgba(255, 255, 255 2);
+}
+a.buttondow3:active {
+    background: white;
+}
+
+a.buttondow4 {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+a.buttondow4:hover {
+    background: rgba(255, 255, 255 2);
+}
+a.buttondow4:active {
+    background: white;
+}
+
+a.buttondow5 {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+a.buttondow5:hover {
+    background: rgba(255, 255, 255 2);
+}
+a.buttondow5:active {
+    background: white;
+}
+
+a.buttondow6 {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+a.buttondow6:hover {
+    background: rgba(255, 255, 255 2);
+}
+a.buttondow6:active {
+    background: white;
+}
+
+a.buttondow7 {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+a.buttondow7:hover {
+    background: rgba(255, 255, 255 2);
+}
+a.buttondow7:active {
+    background: white;
+}
